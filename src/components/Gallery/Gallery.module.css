@@ -8,13 +8,31 @@
     height: 23%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 850px ) {
     .container {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
     .img {
+        width: 60%;
+    }
+}
+
+@media(max-width: 695px) {
+    .img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 500px) {
+    /* .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+    .img {
         width: 100%;
     }
 }
+

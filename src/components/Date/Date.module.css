@@ -44,14 +44,37 @@
     font-weight: 300;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 850px ) {
+    .container {
+        justify-content: center;
+    }
+    .img {
+        margin-left: 30px;
+        width: 45%;
+    }
+}
+
+
+@media (max-width: 695px ) {
     .container {
         flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
     .img {
+        width: 55%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    /* .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+    .img {
         width: 80%;
+        margin-left: 0;
     }
     .dressCode {
         margin-top: 14px;

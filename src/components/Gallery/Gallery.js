@@ -1,7 +1,7 @@
-import image1 from "../../assets/img1.jpg"
+import image1 from "../../assets/Invitacion/img1.jpg"
 import image2 from "../../assets/Invitacion/top1.jpg"
 import image3 from "../../assets/Invitacion/top2.jpg"
-import image4 from "../../assets/portada.jpg"
+import image4 from "../../assets/Invitacion/portada.jpg"
 import styles from "./Gallery.module.css"
 
 

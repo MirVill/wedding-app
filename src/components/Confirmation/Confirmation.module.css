@@ -5,8 +5,9 @@
 
 .title {
     font-family: 'Parisienne', cursive;
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 300;
+    color:#7b7b7b;
 }
 
 .text {
@@ -14,15 +15,25 @@
   padding: 10px;
 }
 
+.info b {
+    font-size: 24px;
+    color: #1d7878;
+}
+
+@media (max-width: 950px ) {
+    .title {
+       font-size: 52px;
+    }
+}
+
 @media (max-width: 500px) {
     .container {
         margin: 20px 10px;
         padding: 0 10px;
         border-top: 1px solid #8298A1;
-        /* border-bottom: 1px solid #8298A1; */
     }
     .title {
-        font-size: 45px;
+        font-size: 50px;
         margin-bottom: 10px;
     }
     .text {
@@ -30,3 +41,4 @@
         padding: 10px;
       }
 }
+

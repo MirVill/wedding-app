@@ -4,7 +4,7 @@ import { Button } from '@mui/material';
 const Confirmation = () => {
     return <div className={styles.container}>
         <h1 className={styles.title}>¡Confirma tu asistencia!</h1>
-        <p><b>- No Niños -</b></p>
+        <p className={styles.info}><b>- No Niños -</b></p>
           <a
             href="https://docs.google.com/forms/d/1tKOTgxaSZSaQbojgcAXogHSsU2BZ5CFKlTxyNEWTByg/edit"
             title="ubicacion"
@@ -14,7 +14,7 @@ const Confirmation = () => {
             <Button
               variant="outlined"
               color="inherit"
-              sx={{ color: "#1d7878", margin: "20px 0" }}
+              sx={{ color: "#1d7878", margin: "20px 0", fontSize: "18px"}}
             >
               Confirmar asistencia
             </Button>
