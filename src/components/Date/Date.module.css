@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0;
+
+}
+
+.img {
+    padding: 40px 0;
+    width: 40%;
+    border-radius: 50%;
+}
+
+.icon {
+    width: 100px;
+    margin: 20px 0 5px;
+}
+
+.container h1 {
+    font-family: 'Parisienne', cursive;
+    font-weight: 300;
+    font-size: 50px;
+}
+.container h2 {
+    font-family: 'montserrat';
+    font-weight: 300;
+    font-size: 20px;
+    color: #1D7878;
+}
+
+.container p {
+    font-family: 'montserrat';
+    font-size: 18px;
+}
+
+.dressCode {
+    font-weight: 400;
+    color: #1D7878;
+}
+
+.dressCodeDescription {
+    color: #AAAAAA;
+    font-weight: 300;
+}
+
+@media (max-width: 500px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img {
+        width: 80%;
+    }
+    .dressCode {
+        margin-top: 14px;
+    }
+}
