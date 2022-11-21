@@ -3,8 +3,11 @@ import img from '../../assets/Invitacion/foto.jpg'
 import cheersIcon from '../../assets/icons/cheersGreen.png'
 import civilWedding from '../../assets/icons/civilGreen.png'
 import { Button } from '@mui/material'
+import { motion, useScroll, useTransform} from 'framer-motion'
 
 const Party = () => {
+  const { scrollYProgress } = useScroll();
+  const scale = useTransform(scrollYProgress, [0, 1.5], [0, 2]);
   return (
     <div>
       <div className={styles.container}>
@@ -30,7 +33,9 @@ const Party = () => {
             </Button>
           </a>
         </div>
-        <img className={styles.photo} src={img} alt="Itzel & Adrian" />
+        <motion.img style={{
+          scale
+        }} className={styles.photo} src={img} alt="Itzel & Adrian" />
         <div>
           <img className={styles.icon} src={civilWedding} alt="boda al civil" />
           <h1 className={styles.title}>Boda Civil</h1>
