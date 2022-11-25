@@ -59,8 +59,11 @@ a {
         width: 40%;
         margin: 35px 0;
     }
-    .btninvisible{
+    .btnVisible{
         display: none;
+    }
+    .btninvisible{
+        visibility:visible;
     }
 }
 
@@ -93,9 +96,6 @@ a {
         /* margin: 35px 0; */
     }
    
-    .btninvisible{
-        visibility:visible;
-    }
     p {
         margin: 10px;
     }

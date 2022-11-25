@@ -3,7 +3,7 @@ import styles from './Footer.module.css';
 const Footer = () => {
   return (
     <div className={styles.container}>
-        <p>2022 | Copyright | Miriam Villa | Todos los derechos reservados</p>
+        <p>2022 Copyright, todos los derechos reservados</p>
         <p>Iconos creados por:</p>
         <div className={styles.iconsInfo}>
         <a

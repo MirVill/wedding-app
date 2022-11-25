@@ -14,13 +14,12 @@ const Confirmation = () => {
             <Button
               variant="outlined"
               color="inherit"
-              sx={{ color: "#1d7878", margin: "20px 0", fontSize: "18px"}}
+              sx={{ color: "#1d7878", margin: "20px 0", fontSize: "17px"}}
             >
               Confirmar asistencia
             </Button>
             </a>
-            <p className={styles.text}> Si hay algo que queremos en nuestra boda, es compartir con nuestros amigos y familiares un evento tan especial para nosotros como lo es la unión de nuestro amor. 
-                Nos hace inmensamente felices que puedas acompañarnos, así que más que cualquier cosa estamos agradecidos por tu presencia.</p>
+            <p className={styles.text}> El mejor regalo es tu presencia. Si tu deseo es hacernos algún presente, te compartimos nuestras sugerencias:</p>
     </div>
 }
 
