@@ -1,5 +1,5 @@
 import styles from './Party.module.css'
-import img from '../../assets/Invitacion/foto.jpg'
+import img from '../../assets/photos/foto.jpg'
 import cheersIcon from '../../assets/icons/cheersGreen.png'
 import civilWedding from '../../assets/icons/civilGreen.png'
 import { Button } from '@mui/material'

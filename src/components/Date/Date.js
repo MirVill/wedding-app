@@ -1,5 +1,5 @@
 import styles from './Date.module.css';
-import image from '../../assets/Invitacion/anillos.jpg'
+import image from '../../assets/photos/anillos.jpg'
 import image1 from '../../assets/icons/dressCode.png'
 
 const Date = () => {
