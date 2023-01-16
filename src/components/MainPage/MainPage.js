@@ -10,6 +10,7 @@ import Footer from "../Footer/Footer";
 import Icon1 from "../../assets/icons/giftGreen.png";
 import Icon2 from "../../assets/icons/piggy-bank.png";
 import Message from "../Message/Message";
+import Lodging from "../Lodging/Lodging";
 
 const giftTable = {
   title: "Mesa de regalos",
@@ -62,6 +63,7 @@ const MainPage = () => {
         <CardItem icon={Icon1} data={giftTable} extra={extra}></CardItem>
         <CardItem icon={Icon2} data={bankData} extra={extra2} />
       </div>
+      <Lodging />
       <Message />
       <Footer />
     </div>
