@@ -29,7 +29,7 @@ const Lodging = () => {
             <h2 className={styles.subtitle}>Microtel by Wyndham</h2>
             <p>Dirección: Av. López Mateos Sur 1710, Plaza la Gourmetería, Tlajomulco de Zúñiga</p>
             <p>Reservaciones: 33 3830 6324</p>
-            <p>Código: Boda Itzel & Adrián</p>
+            <p>Código: 042723BOD</p>
             <a
             href="https://waze.com/ul/h9ewmn5873"
             title="ubicacion"
